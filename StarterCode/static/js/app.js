@@ -21,7 +21,7 @@ function buildCharts(sample) {
       ];
   
       var barLayout = {
-        title: "Top 10 Bacteria Cultures Found",
+        title: "Top 10 OTUs Found",
         margin: { t: 30, l: 150 }
       };
   
@@ -29,7 +29,7 @@ function buildCharts(sample) {
 
       // Build a Bubble Chart
       var bubbleLayout = {
-        title: "Bacteria Cultures Per Sample",
+        title: "OTUs Per Sample",
         margin: { t: 0 },
         hovermode: "closest",
         xaxis: { title: "OTU ID" },
